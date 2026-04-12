@@ -232,7 +232,7 @@ def detect_smt(gold_df, silver_df, lookback=10):
     try:
         # Align på tid
         gold_recent = gold_df.iloc[-lookback:]
-silver_recent = silver_df.reindex(gold_recent.index, method='nearest', tolerance='1h')
+silver_recent = silver_df.reindex(gold_recent.index, method='nearest', tolerance=pd.Timedelta('1h'))
 silver_recent = silver_recent.dropna(how='all')
 
         if len(silver_recent) < lookback // 2:
