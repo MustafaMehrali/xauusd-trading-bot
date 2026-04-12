@@ -16,8 +16,8 @@ from datetime import datetime, timezone
 # ═══════════════════════════════════════════════
 # KONFIGURATION
 # ═══════════════════════════════════════════════
-TELEGRAM_TOKEN   = "DIN_BOT_TOKEN_HER"
-TELEGRAM_CHAT_ID = "DIT_CHAT_ID_HER"
+TELEGRAM_TOKEN   = "AAHm7ZyS8VbuMdSPbMQcPPodkDX2NVlUH8s"
+TELEGRAM_CHAT_ID = "5773639455"
 SCAN_INTERVAL    = 60
 SLIPPAGE         = 1.0
 SPREAD           = 0.30
